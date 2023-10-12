@@ -6,7 +6,7 @@ export default function Sidebar() {
     <div className="sidebar">
         <div className="sidebarItem">
             <span className="sidebarTitle">ABOUT ME</span>
-            <img src="https://i.pinimg.com/564x/10/54/09/105409ff4b8ce13b997a1e184d611d54.jpg" style={{ width: '100%', height: '320px'}}alt="" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=e47277a943&attid=0.1&permmsgid=msg-a:r682310502605662973&th=18b1e5f3db4ce1f0&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-2xxH4YBr2nQQM-sYO8TegN4A032Jgn8ONUWJC_6kRUDCN35Z4VCa-scVMUChWJyDgcUCCWpIfKaR8ntVEdSHmhxzlvZ_oFoLAWuywZHh0T2_YMVlFdH1-2VM&disp=emb&realattid=18b1e5f1660e88769261" style={{ width: '100%', height: '320px'}}alt="" />
                
             <li className="topListItem">
               <Link className="link" to="/post/:postId">Post</Link>

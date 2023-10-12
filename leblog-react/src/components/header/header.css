@@ -7,19 +7,29 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Lora', serif;
-    color: #b71818;
+    font-style: italic;
+    color: #9b0c0c;
 }
 
 .headerTitleSm{
     position: absolute;
     top: 10%;
     font-size: 20px;
+    
 }
 
 .headerTitleLg{
     position: absolute;
     top: 10%;
     font-size: 100px;
+}
+
+.headerTitleLg:first-letter{
+    margin-left: 20px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #e31021;
+    font-weight: 700;
 }
 
 .headerImg{

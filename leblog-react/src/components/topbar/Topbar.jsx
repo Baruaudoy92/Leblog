@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import "./topbar.css";
 
 export default function Topbar() {
-  const user =true;
+  const user =false;
   return (
     <div className='top'>
         <div className="topLeft">
@@ -30,7 +30,8 @@ export default function Topbar() {
             </li>
             <li className="topListItem">
             
-              {user && "DÉCONNECTER" }
+              
+              <Link className="link" to="/user">{user && "DÉCONNECTER" }</Link>
             </li>
             </ul>
         </div>
@@ -41,7 +42,7 @@ export default function Topbar() {
             <li>
             <Link className="link" to="/settings">
             <img className="topImg"  
-            src="https://i.pinimg.com/140x140_RS/8b/63/b8/8b63b8a1ab84b7d69beceb3430374d1e.jpg" />
+            src="https://mail.google.com/mail/u/0?ui=2&ik=e47277a943&attid=0.1&permmsgid=msg-a:r682310502605662973&th=18b1e5f3db4ce1f0&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-2xxH4YBr2nQQM-sYO8TegN4A032Jgn8ONUWJC_6kRUDCN35Z4VCa-scVMUChWJyDgcUCCWpIfKaR8ntVEdSHmhxzlvZ_oFoLAWuywZHh0T2_YMVlFdH1-2VM&disp=emb&realattid=18b1e5f1660e88769261" />
             </Link>
             </li>
             

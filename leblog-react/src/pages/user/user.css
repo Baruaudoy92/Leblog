@@ -1,0 +1,37 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), 
+    url("https://i.pinimg.com/564x/a0/10/be/a010bed5b1ef7c293dc4014f3b31a302.jpg");
+    background-size: cover;
+}
+
+.add{
+    font-size: 22px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-style: italic;
+    color: brown;
+    background-image: url("https://i.pinimg.com/564x/a0/10/be/a010bed5b1ef7c293dc4014f3b31a302.jpg");
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.registerTitle{
+    font-size: 20px;
+    border: 5px solid;
+    border-radius: 20px;
+    color: rgb(6, 5, 5);
+}
+
+.registerButton{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+}

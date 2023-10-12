@@ -14,9 +14,12 @@ import {
 import SinglePost from "./components/singlepost/SinglePost";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
+import User from "./pages/user/User";
+import Update from "./pages/updateuser/Update";
+
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <Router>
     <Topbar /> 
@@ -30,10 +33,11 @@ function App() {
     <Route path="/settings"> {user ? <Settings /> : <Register />} </Route>
     <Route path="/contact"> {user ? <Contact /> : <Register />} </Route>
     <Route path="/about"> <About /> </Route>
+    <Route path="/user"> <User /> </Route>
+    <Route path="/updateuser/:id"> <Update /> </Route>
     <Route path="/post/:postId">
       <SinglePost />
-      <Single />
-      
+      <Single />  
     </Route>
     </Switch>
     </Router>
